@@ -2,8 +2,6 @@ function binarySearch(list, item) {
   let low = 0;
   let high = list.length - 1;
 
-  let guess = list[mid];
-
   while (high >= low) {
     let mid = Math.floor((low + high) / 2);
     let guess = list[mid];
